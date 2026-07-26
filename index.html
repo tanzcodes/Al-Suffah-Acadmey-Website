@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al-Suffah Academy | Excellence in Education</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <!-- LOGO PLACEHOLDER: Aap apna logo.png yahan replace kar sakti hain -->
+        <div class="logo-ring">
+          <img src="./images/img.jfif" alt="Logo" class="main-logo">
+        </div>
+        <div class="brand-text">
+          <span class="school-name">Al-Suffah Academy</span>
+          <span class="school-tagline">Knowledge · Character · Excellence</span>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav align-items-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <!-- Is button ko Navbar ke andar replace karein -->
+            <a href="course-material.html" class="btn-admissions text-decoration-none"></a>
+            <i class="bi bi-file-earmark-pdf-fill me-1"></i> Course Material
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO CAROUSEL ========== -->
+  <section id="home" class="hero-section">
+    <div id="schoolCarousel" class="carousel slide carousel-fade" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#schoolCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#schoolCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#schoolCarousel" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="./images/School banner.jpg" class="d-block w-100" alt="School Campus">
+          <div class="carousel-caption">
+            <span class="hero-badge">Welcome to Al-Suffah</span>
+            <h1>Nurturing Minds, Building Character</h1>
+            <p>Providing high-quality modern education rooted in strong Islamic and moral values.</p>
+            <div class="hero-buttons">
+              <a href="contact.html#inquiry" class="btn btn-gold">Apply Now</a>
+              <a href="#about" class="btn btn-outline-light">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1600&auto=format&fit=crop"
+            class="d-block w-100" alt="Classroom Learning">
+          <div class="carousel-caption">
+            <span class="hero-badge">Academic Excellence</span>
+            <h1>Empowering Students For Future</h1>
+            <p>Interactive classrooms, qualified teachers, and a student-centered curriculum.</p>
+            <div class="hero-buttons">
+              <a href="#academics" class="btn btn-gold">Our Curriculum</a>
+              <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1600&auto=format&fit=crop"
+            class="d-block w-100" alt="Campus Life">
+          <div class="carousel-caption">
+            <span class="hero-badge">Holistic Development</span>
+            <h1>Four Campuses, One Shared Vision</h1>
+            <p>Conveniently located campuses dedicated to nurturing every student's potential.</p>
+            <div class="hero-buttons">
+              <a href="#campuses" class="btn btn-gold">Our Campuses</a>
+              <a href="#gallery" class="btn btn-outline-light">View Gallery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS COUNTER STRIP ========== -->
+  <section class="stats-banner">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <span class="counter" data-count="16">0</span>
+            <p>Campuses</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <span class="counter" data-count="2500">0</span>
+            <p>Active Students</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <span class="counter" data-count="90">0</span>
+            <p>Qualified Teachers</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-box">
+            <span class="counter" data-count="25">0</span>
+            <p>Years of Service</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT / VISION & MISSION ========== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 header-block">
+        <span class="sub-title">Our Purpose</span>
+        <h2>Vision &amp; Mission</h2>
+        <div class="gold-line mx-auto"></div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 reveal-up">
+          <div class="purpose-card">
+            <div class="icon-box"><i class="fa-solid fa-eye"></i></div>
+            <h3>Our Vision</h3>
+            <p>To nurture generations of confident, capable learners who lead with knowledge, integrity, and compassion
+              in every walk of life.</p>
+          </div>
+        </div>
+        <div class="col-md-6 reveal-up">
+          <div class="purpose-card">
+            <div class="icon-box"><i class="fa-solid fa-compass"></i></div>
+            <h3>Our Mission</h3>
+            <p>To provide a nurturing academic environment that builds strong character alongside modern skills,
+              preparing students for real-world success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="section-padding bg-light-blue">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 reveal-left">
+          <!-- IMAGE PLACEHOLDER: School ki featured photo ke liye -->
+          <div class="about-image-wrapper">
+            <img src="./images/gallery-banner .jpg" class="img-fluid rounded-4 shadow" alt="About Al-Suffah">
+          </div>
+        </div>
+        <div class="col-lg-6 reveal-right">
+          <span class="sub-title">Why Choose Us</span>
+          <h2 class="mb-4">A Foundation Built to Last</h2>
+
+          <div class="feature-item">
+            <span class="feature-num">01</span>
+            <div>
+              <h5>Experienced Faculty</h5>
+              <p>Qualified, dedicated teachers committed to every student's growth.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <span class="feature-num">02</span>
+            <div>
+              <h5>Values-Based Learning</h5>
+              <p>Academics integrated with strong moral and ethical foundations.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <span class="feature-num">03</span>
+            <div>
+              <h5>Modern Facilities</h5>
+              <p>Well-equipped classrooms and campuses designed for focused learning.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <span class="feature-num">04</span>
+            <div>
+              <h5>Four Accessible Campuses</h5>
+              <p>Conveniently located campuses serving families across the city.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY PREVIEW ========== -->
+  <!-- CAMPUS GALLERY SECTION -->
+  <section id="gallery" class="section-padding bg-white">
+    <div class="container">
+
+      <!-- Section Header with Button -->
+      <div class="d-flex justify-content-between align-items-end mb-4">
+        <div>
+          <span class="sub-title text-uppercase fw-bold text-navy"
+            style="font-size: 0.8rem; letter-spacing: 1px;">CAMPUS LIFE</span>
+          <h2 class="fw-bold text-navy m-0">Moments From Our Academy</h2>
+        </div>
+        <a href="gallery.html" class="btn btn-navy px-4 py-2">View Full Gallery</a>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="row g-3">
+        <!-- Top Row (3 Pictures) -->
+        <div class="col-md-4">
+          <div class="gallery-img-wrapper">
+            <img src="./images/imagesgallery-1.jpg" alt="Gallery 1" class="gallery-img">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img-wrapper">
+            <img src="./images/imagesgallery-2.jpg" alt="Gallery 2" class="gallery-img">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img-wrapper">
+            <img src="./images/imagesgallery-3.jpg" alt="Gallery 3" class="gallery-img">
+          </div>
+        </div>
+
+        <!-- Bottom Row (3 Pictures) -->
+        <div class="col-md-4">
+          <div class="gallery-img-wrapper">
+            <img src="./images/imagesgallery-4.jpg" alt="Gallery 4" class="gallery-img">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img-wrapper">
+            <img src="./images/imagesgallery-5.jpg" alt="Gallery 5" class="gallery-img">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img-wrapper">
+            <img src="./images/imagesgallery-6.jpg" alt="Gallery 6" class="gallery-img">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+ 
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-logo-holder bg-gold text-navy">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <h4 class="text-white mb-0 display-font">Al-Suffah Academy</h4>
+          </div>
+          <p class="text-light-gray">Nurturing knowledge and character since our founding. Four campuses, one shared
+            mission of excellence.</p>
+          <div class="social-links mt-3">
+            <a href="https://facebook.com/AlSuffahAcademyOfficial/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#campuses">Campuses</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <h5>Academics</h5>
+          <ul class="footer-links">
+            <li><a href="#">Curriculum</a></li>
+            <li><a href="#">Admissions Criteria</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <h5>Contact Us</h5>
+          <ul class="footer-contact">
+            <li><i class="fa-solid fa-location-dot"></i> 2-C, 10/13, Nazimabad No. 2, Karachi</li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+92 325 3393267"
+                class="text-decoration-none text-light">+92
+                333 3112979</a></li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:www.alsuffahacademy.com.pk"
+                class="text-decoration-none text-light">info@alsuffahacademy.com.pk</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Copyright © 2026 Al-Suffah Academy. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING CALL BUTTON ========== -->
+  <a href="tel:+92 325 3393267" class="floating-call-btn">
+    <i class="fa-solid fa-phone"></i> Call Principal
+  </a>
+
+
+  <!-- Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <!-- GSAP Core -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <!-- ScrollTrigger Plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- Apni Custom Script -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
